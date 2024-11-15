@@ -1,5 +1,4 @@
 from tkinter import *
-from PIL import ImageTk
 from tkinter import messagebox
 
 window=Tk()
@@ -20,10 +19,6 @@ window.geometry('1280x700+0+0')
 window.resizable(False,False)
 window.title("Student Login")
 window.config(bg="white")
-
-backgroundImage=ImageTk.PhotoImage(file='bg.jpg')
-bgLabel=Label(window,image=backgroundImage)
-bgLabel.place(x=0,y=0)
 
 loginframe=Frame(window,bg='white')
 loginframe.place(x=400,y=150)
